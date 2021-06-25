@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Yatra Application Test Automation Test Suite</th></tr>
+<tr><td><a href="#t0">Yatra App Test Cases</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">379,964</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Yatra Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Yatra App Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.yatra.qa.testcases.HomePageTest</td><td><a href="#m0">searchFlightTest</a></td><td rowspan="1">1624448555569</td><td rowspan="1">9259</td></tr><tr><th colspan="4">Yatra App Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.yatra.qa.testcases.LoginPageTest</td><td><a href="#m1">loginPageHeaderTest</a></td><td rowspan="1">1624448397757</td><td rowspan="1">69</td></tr><tr class="passedeven"><td><a href="#m2">loginTest</a></td><td rowspan="1">1624448448788</td><td rowspan="1">1429</td></tr><tr class="passedeven"><td><a href="#m3">usernameTest</a></td><td rowspan="1">1624448496770</td><td rowspan="1">6518</td></tr><tr class="passedodd"><td rowspan="3">com.yatra.qa.testcases.WelcomePageTest</td><td><a href="#m4">navigateToLoginPageTest</a></td><td rowspan="1">1624448338523</td><td rowspan="1">6918</td></tr><tr class="passedodd"><td><a href="#m5">welcomePageLogoTest</a></td><td rowspan="1">1624448287741</td><td rowspan="1">273</td></tr><tr class="passedodd"><td><a href="#m6">welcomePageTitleTest</a></td><td rowspan="1">1624448240186</td><td rowspan="1">85</td></tr></tbody>
+</table>
+<h2>Yatra App Test Cases</h2><h3 id="m0">com.yatra.qa.testcases.HomePageTest#searchFlightTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li class=&quot;&quot;&gt;...&lt;/li&gt; is not clickable at point (274, 591). Other element would receive the click: &lt;iframe title=&quot;notification-frame-b8a48c62&quot; name=&quot;notification-frame-b8a48c62&quot; id=&quot;webklipper-publisher-widget-container-notification-frame&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; style=&quot;display: block; position: fixed; z-index: 16776272; left: -1000px; top: -1000px; width: 100%; visibility: visible; overflow: visible; height: 28px; transform: translate(1017px, 1585px);&quot; data-notification-layout-id=&quot;~483819h&quot; data-notification-layout-name=&quot;undefined&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=89.0.4389.72)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1EKAV2N&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.72, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Suraj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5c1ae7b28335e1a32c3f831e22eccb2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.yatra.qa.pages.HomePage.searchFlight(HomePage.java:47)
+	at com.yatra.qa.testcases.HomePageTest.searchFlightTest(HomePageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.yatra.qa.testcases.LoginPageTest#loginPageHeaderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.yatra.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.yatra.qa.testcases.LoginPageTest#usernameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.yatra.qa.testcases.WelcomePageTest#navigateToLoginPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.yatra.qa.testcases.WelcomePageTest#welcomePageLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.yatra.qa.testcases.WelcomePageTest#welcomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Yatra Testing Suite" >
+  <test name="Yatra Testing Test"   >
+   
+  <classes>
+  
+  <class name= "com.yatra.qa.testcases.WelcomePageTest"/>
+  <class name="com.yatra.qa.testcases.LoginPageTest"/>
+  
+  </classes>
+    
+ </test>
+</suite>
