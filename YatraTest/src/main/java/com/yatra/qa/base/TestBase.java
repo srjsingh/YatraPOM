@@ -70,10 +70,14 @@ public class TestBase {
 			
 		}
 		
-		e_driver = new EventFiringWebDriver(driver);
+		             // fire event
+		
+		e_driver = new EventFiringWebDriver(driver); 
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
+		
+					// fire event
 		
 		
 		driver.manage().deleteAllCookies();
