@@ -29,7 +29,7 @@ public class TestBase {
 		try {
 			
 			prop = new Properties();
-			FileInputStream io = new FileInputStream("E:\\Eclipse_workspace\\YatraTest\\src\\main\\java\\com\\yatra\\qa\\config\\config.properties");
+			FileInputStream io = new FileInputStream("C:\\Users\\Suraj\\git\\YatraPOM\\YatraTest\\src\\main\\java\\com\\yatra\\qa\\config\\config.properties");
 			prop.load(io);
 			
 		} catch (FileNotFoundException e) {
