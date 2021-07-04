@@ -6,6 +6,24 @@
   </listeners>
   <test thread-count="5" name="Yatra App Test Cases(failed)">
     <classes>
+      <class name="com.yatra.qa.testcases.WelcomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="welcomePageLogoTest"/>
+          <include name="navigateToLoginPageTest"/>
+          <include name="welcomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.yatra.qa.testcases.WelcomePageTest -->
+      <class name="com.yatra.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="usernameTest"/>
+          <include name="tearDown"/>
+          <include name="loginPageHeaderTest"/>
+        </methods>
+      </class> <!-- com.yatra.qa.testcases.LoginPageTest -->
       <class name="com.yatra.qa.testcases.HomePageTest">
         <methods>
           <include name="setup"/>
